@@ -11,7 +11,7 @@ sidebar_label: collapseToast
 | duration  | number \| [number,number] | ✘        | 300     | The duration of the collapse transition                                  |
 
 ```js
-import { collapseToast } from 'react-toastify';
+import { collapseToast } from 'material-react-toastify';
 
 collapse(node, done);
 ```

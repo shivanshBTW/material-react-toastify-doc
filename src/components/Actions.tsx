@@ -10,12 +10,8 @@ interface ActionsProps {
   handleReset: Fn;
 }
 
-export const Actions: React.FC<ActionsProps> = ({
-  clearAll,
-  handleReset,
-  showToast,
-  updateToast,
-}) => {
+export const Actions: React.FC<ActionsProps> = (props) => {
+    let {clearAll, handleReset, showToast, updateToast}=props
   return (
     <Container>
       <Button lookAtMe onClick={showToast}>

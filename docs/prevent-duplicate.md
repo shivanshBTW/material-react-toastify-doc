@@ -12,7 +12,7 @@ Providing a custom toast id is certainly the most straightforward way to prevent
 
 ```js
 import React from 'react';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 const customId = "custom-id-yes";
 
@@ -37,7 +37,7 @@ Maybe there is some situations where you cannot provide a custom toast id, in th
 
 ```jsx
 import React from 'react';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 function Example(){
   const toastId = React.useRef(null);

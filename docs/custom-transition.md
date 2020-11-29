@@ -51,7 +51,7 @@ The `cssTransition` will also take care to collapse the toast when they exited.
 
 ```jsx
 import React from 'react';
-import { toast, cssTransition } from 'react-toastify';
+import { toast, cssTransition } from 'material-react-toastify';
 import './style.css';
 
 const Zoom = cssTransition({
@@ -151,7 +151,7 @@ In the example below we will reimplement the `cssTransition` helper.
 
 ```jsx
 import React from 'react';
-import { toast, collapseToast } from 'react-toastify';
+import { toast, collapseToast } from 'material-react-toastify';
 import { Transition } from 'react-transition-group';
 
 

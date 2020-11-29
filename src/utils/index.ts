@@ -1,4 +1,4 @@
-import { Bounce, Slide, Zoom, Flip } from "react-toastify";
+import { Bounce, Slide, Zoom, Flip } from "material-react-toastify";
 
 export const containerOptions = [
   {

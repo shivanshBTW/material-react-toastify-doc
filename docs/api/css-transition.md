@@ -17,7 +17,7 @@ sidebar_label: cssTransition
 ## Usage
 
 ```js
-import { cssTransition } from 'react-toastify';
+import { cssTransition } from 'material-react-toastify';
 
 const Zoom = cssTransition({
   enter: 'zoomIn',

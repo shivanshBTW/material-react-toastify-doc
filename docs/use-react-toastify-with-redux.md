@@ -1,5 +1,5 @@
 ---
-id: 'use-react-toastify-with-redux'
+id: 'use-material-react-toastify-with-redux'
 title: 'Usage with redux'
 sidebar_label: 'Usage with redux'
 ---
@@ -17,7 +17,7 @@ sidebar_label: 'Usage with redux'
           overflow:"hidden"
        }
      }
-     title="Use react-toastify with redux"
+     title="Use material-react-toastify with redux"
      allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
      sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
 />

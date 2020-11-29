@@ -1,16 +1,16 @@
 ---
-id: the-gist-of-react-toastify
-title: The gist of react-toastify
-sidebar_label: The gist of react-toastify
+id: the-gist-of-material-react-toastify
+title: The gist of material-react-toastify
+sidebar_label: The gist of material-react-toastify
 ---
 
 ```jsx
   import React from 'react';
-  import { ToastContainer, toast } from 'react-toastify';
+  import { ToastContainer, toast } from 'material-react-toastify';
 
-  import 'react-toastify/dist/ReactToastify.css';
+  import 'material-react-toastify/dist/ReactToastify.css';
   // minified version is also included
-  // import 'react-toastify/dist/ReactToastify.min.css';
+  // import 'material-react-toastify/dist/ReactToastify.min.css';
 
   function App(){
     const notify = () => toast("Wow so easy !");

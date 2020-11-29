@@ -12,7 +12,7 @@ For convenience, `toast` exposes a POSITION property to avoid any typos.
 
 ```jsx
   import React from 'react';
-  import { toast } from 'react-toastify';
+  import { toast } from 'material-react-toastify';
 
   function Example() {
     const notify = () => {

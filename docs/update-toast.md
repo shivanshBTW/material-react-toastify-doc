@@ -12,7 +12,7 @@ When you update a toast, the toast options and the content are inherited but don
 
 ```jsx
 import React from 'react';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 function Example() {
   const toastId = React.useRef(null);

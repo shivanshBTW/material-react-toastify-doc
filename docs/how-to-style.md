@@ -74,7 +74,7 @@ The most straightforward way to apply your own style would be to override the ex
 
 ## Build your own style using the scss files
 
-Grab the [scss directory](https://github.com/fkhadra/react-toastify/tree/master/scss) of the repository and build your own stylesheet. If you just want to changes some colors most of them are defined inside the `_variables.scss` file.
+Grab the [scss directory](https://github.com/shivanshBTW/material-react-toastify/tree/master/scss) of the repository and build your own stylesheet. If you just want to changes some colors most of them are defined inside the `_variables.scss` file.
 
 ```
 scss
@@ -163,7 +163,7 @@ You can override the css classes with `styled-components`. You can find the list
 ```jsx
 import React from 'react';
 import styled from 'styled-components';
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'material-react-toastify';
 
 const StyledContainer = styled(WrappedToastContainer).attrs({
   // custom props
@@ -213,7 +213,7 @@ const StyledToastContainer = styled(ToastContainer).attrs({
 If you want to style from scratch simply include the bare minimum style and you are good to go.
 
 ```jsx
-import 'react-toastify/dist/ReactToastify.minimal.css';
+import 'material-react-toastify/dist/ReactToastify.minimal.css';
 ```
 
 ## Mobile

@@ -14,7 +14,7 @@ You can render any valid `ReactNode`: string, number, component... This is reall
 
 ```jsx
 import React from 'react';
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "material-react-toastify";
 
 const Msg = ({ closeToast }) => (
   <div>
@@ -56,7 +56,7 @@ import { ContextExample } from '../src/components/ContextExample';
 
 ```jsx
 import React from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer, toast } from "material-react-toastify";
 
 const CountContext = React.createContext(null);
 

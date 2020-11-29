@@ -12,12 +12,12 @@ sidebar_label: Installation
 
 With npm:
 ```sh
-npm install --save react-toastify
+npm install --save material-react-toastify
 ```
 
 With yarn:
 ```
-yarn add react-toastify
+yarn add material-react-toastify
 ```
 
 ## Video tutorial

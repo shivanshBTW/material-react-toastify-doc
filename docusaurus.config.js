@@ -1,10 +1,10 @@
 module.exports = {
-  title: "React-Toastify",
-  tagline: "React notification made easy !",
-  url: "https://fkhadra.github.io/",
+  title: "Material-React-Toastify",
+  tagline: "React Material-UI Snackbars Notifications made easy !",
+  url: "https://shivanshBTW.github.io/",
   baseUrl: "/react-toastify/",
   favicon: "img/favicon.ico",
-  organizationName: "fkhadra",
+  organizationName: "shivanshBTW",
   projectName: "react-toastify",
   themeConfig: {
     prism: {
@@ -12,10 +12,10 @@ module.exports = {
       darkTheme: require("prism-react-renderer/themes/dracula"),
     },
     navbar: {
-      title: "React-Toastify",
+      title: "Material-React-Toastify",
       links: [
         {
-          to: "https://github.com/fkhadra/react-toastify",
+          to: "https://github.com/shivanshBTW/material-react-toastify",
           label: "GitHub",
           position: "right",
         },
@@ -27,7 +27,7 @@ module.exports = {
     },
     announcementBar: {
       id: "sponsor", // Any value that will identify this message
-      content: 'Hey you like my work? Consider <a target="_blank" rel="noopener noreferrer" href="https://github.com/sponsors/fkhadra">sponsoring</a> me',
+      content: 'Hey you like my work? Consider <a target="_blank" rel="noopener noreferrer" href="https://github.com/sponsors/shivanshBTW">sponsoring</a> me',
     },
     algolia: {
       apiKey: "f54fc6c27b73c67cf37ad6f02753423b",
@@ -43,7 +43,7 @@ module.exports = {
         docs: {
           routeBasePath: "",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/fkhadra/react-toastify-doc/edit/master/",
+          editUrl: "https://github.com/shivanshBTW/material-react-toastify-doc/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

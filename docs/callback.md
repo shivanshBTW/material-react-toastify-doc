@@ -11,7 +11,7 @@ You can define two callbacks. Their names are self-explanatory:
 
 ```jsx
 import React from 'react';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 function Example(){
 
@@ -31,7 +31,7 @@ function Example(){
 
 ```jsx
 import React from 'react';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 function Msg({ uid }){
   return <span>{uid}</span>;

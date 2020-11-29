@@ -12,7 +12,7 @@ If you call `toast.dismiss` without argument, all the displayed toasts will be r
 
 ```jsx
 import React from 'react';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 function Example(){
   const toastId = React.useRef(null);

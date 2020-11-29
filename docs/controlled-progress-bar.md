@@ -9,7 +9,7 @@ Imagine you want to see the progress of a file upload. The example below feature
 ```jsx
 import React from 'react';
 import axios from 'axios';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 function Example(){
   // we need to keep a reference of the toastId to be able to update it

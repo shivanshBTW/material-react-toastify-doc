@@ -23,7 +23,7 @@ Bounce is used by default, but you can replace it with your own transition, or w
 
 
 ```jsx
-import { Slide, Zoom, Flip, Bounce } from 'react-toastify';
+import { Slide, Zoom, Flip, Bounce } from 'material-react-toastify';
 
   <ToastContainer
     transition={Slide}

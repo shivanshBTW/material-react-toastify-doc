@@ -8,8 +8,8 @@ sidebar_label: 'Lazy container and multi-container'
 
 ```js
   import React, { Component } from 'react';
-  import { toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+  import { toast } from 'material-react-toastify';
+  import 'material-react-toastify/dist/ReactToastify.css';
 
   // Call it once in your app. At the root of your app is the best place
   toast.configure()
@@ -57,8 +57,8 @@ A simple example to demonstrate multi toast container capability.
    
 ```js
   import React, { Component } from 'react';
-  import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+  import { ToastContainer, toast } from 'material-react-toastify';
+  import 'material-react-toastify/dist/ReactToastify.css';
 
 
  class App extends Component {

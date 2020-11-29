@@ -10,7 +10,7 @@ The `autoClose` prop accept a duration in milliseconds or `false`.
 
 ```jsx
 import React from 'react';
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'material-react-toastify';
 
 // close toast after 8 seconds
 const App = () => (
@@ -22,7 +22,7 @@ const App = () => (
 
 ```jsx
 import React from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from 'material-react-toastify';
 
 function Example() {
   const closeAfter15 = () => toast("Will close after 15s", { autoClose: 15000 });

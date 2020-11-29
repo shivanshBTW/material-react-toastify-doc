@@ -9,7 +9,7 @@ A custom `toastId` can be used to replace the one generated. You can provide a `
 
 ```jsx
 import React from 'react';
-import { toast } from 'react-toastify';
+import { toast } from 'material-react-toastify';
 
 function Example(){
   const notify = () => {

@@ -16,7 +16,7 @@ You can pass a custom close button to the `ToastContainer` to replace the defaul
 
 ```jsx
   import React from 'react';
-  import { toast, ToastContainer } from 'react-toastify';
+  import { toast, ToastContainer } from 'material-react-toastify';
 
   const CloseButton = ({ closeToast }) => (
     <i
@@ -76,4 +76,3 @@ Sometimes you don't want to display a close button. It can be removed globally o
   })
 ```
 :::
- 

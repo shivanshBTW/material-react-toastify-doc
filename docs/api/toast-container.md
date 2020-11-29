@@ -34,7 +34,7 @@ sidebar_label: ToastContainer
 ## Usage
 
 ```jsx
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'material-react-toastify';
 
 <ToastContainer 
   containerId="an id"
