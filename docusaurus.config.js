@@ -2,10 +2,10 @@ module.exports = {
   title: "Material-React-Toastify",
   tagline: "React Material-UI Snackbars Notifications made easy !",
   url: "https://shivanshBTW.github.io/",
-  baseUrl: "/react-toastify/",
+  baseUrl: "/material-react-toastify/",
   favicon: "img/favicon.ico",
   organizationName: "shivanshBTW",
-  projectName: "react-toastify",
+  projectName: "material-react-toastify",
   themeConfig: {
     prism: {
       theme: require("prism-react-renderer/themes/github"),
@@ -31,7 +31,7 @@ module.exports = {
     },
     algolia: {
       apiKey: "f54fc6c27b73c67cf37ad6f02753423b",
-      indexName: "react-toastify",
+      indexName: "material-react-toastify",
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
   },

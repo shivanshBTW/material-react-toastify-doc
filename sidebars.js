@@ -3,7 +3,7 @@ module.exports = {
     ["Getting Started"]: [
       "introduction",
       "installation",
-      "the-gist-of-react-toastify",
+      "the-gist-of-material-react-toastify",
       "release-notes",
     ],
     Usage: [
@@ -22,7 +22,7 @@ module.exports = {
       "listen-for-changes",
       "use-a-custom-close-button-or-remove-it",
       "add-an-undo-action-to-a-toast",
-      "use-react-toastify-with-redux",
+      "use-material-react-toastify-with-redux",
       "replace-default-transition",
       "custom-transition",
       "drag-to-remove",
