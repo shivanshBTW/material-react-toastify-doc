@@ -8,13 +8,14 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "predeploy": "docusaurus build",
-    "deploy": "gh-pages -d build"
+    "deploy": "GIT_USER=shivanshBTW yarn deploy",
+    "win-deploy": "cmd /C \"set \"GIT_USER=shivanshBTW\" && yarn deploy\"\n"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.50",
     "@docusaurus/preset-classic": "^2.0.0-alpha.50",
     "classnames": "^2.2.6",
-    "material-react-toastify": "^0.0.8",
+    "material-react-toastify": "^0.1.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.1.0"
