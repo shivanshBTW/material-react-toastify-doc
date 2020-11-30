@@ -1,8 +1,8 @@
 module.exports = {
   title: "Material-React-Toastify",
   tagline: "React Material-UI Snackbars Notifications made easy !",
-  url: "https://shivanshBTW.github.io/",
-  baseUrl: "/material-react-toastify/",
+  url: 'https://material-react-toastify.netlify.com',
+  baseUrl: '/',
   favicon: "img/favicon.ico",
   organizationName: "shivanshBTW",
   projectName: "material-react-toastify",
